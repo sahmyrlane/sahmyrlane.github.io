@@ -153,6 +153,20 @@
 		<script src="js/classie.js"></script>
 		<script src="js/helper.js"></script>
 		<script src="js/grid3d.js"></script>
-		
+		$(document).ready(function() {
+    var $slider = $('#slider').skySlider();
+    var $carousel = $('#carousel').skySlider({
+        interval: 3000,
+        items: 2,
+        carousel: true,
+        loop: true,
+        autoplay: true,
+        callback: function(number) {
+            //console.log('Current slideSet - ' + number);
+        }
+    });
+
+    // console.log('Total number of slides - ' + $slider.getSlideSetsCount());
+});
 	</body>
 </html>
