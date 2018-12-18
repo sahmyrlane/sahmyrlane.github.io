@@ -29,9 +29,9 @@
     $.extend(slider, {
         defaults: {
             interval: 3000,
-            carousel: false,
+            carousel: true,
             duration: 500,
-            items: 1,
+            items: 4,
             loop: true,
             autoplay: false,
             callback: function() {}
