@@ -1,0 +1,51 @@
+h1{	
+	position: absolute;
+	color: #282828;
+	margin-left: 800px; 
+	margin-top: 200px;
+	font-size: 42px;
+	font-family: 'Lato';
+	font-weight: 300;
+
+}
+p{	
+	font-family: 'Source Sans Pro', sans-serif;
+  text-indent: 1.5em;
+
+	position: absolute;
+	margin-top: 270px;
+	color: #282828;
+	margin-left: 650px;
+	margin-right: 300px
+
+
+}
+@media screen and (max-width: 600px) {
+
+h1{	
+	position: relative;
+	color: #282828;
+	text-align: center;
+	margin-left: 20px; 
+	margin-top: 430px;
+	font-size: 3.6em;
+	font-family: 'Lato';
+	font-weight: 300;
+
+}
+
+p{	
+	font-family: 'Source Sans Pro', sans-serif;
+  text-indent: 1.5em;
+
+	position: relative;
+	margin-top: 20px;
+	color: #282828;
+	margin-left: 20px;
+	margin-right: 0px;
+	font-size: 1.2em;
+	margin-bottom:40px;
+
+
+}
+}
